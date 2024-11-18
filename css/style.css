@@ -89,3 +89,76 @@ section.servico ul li p.botao a {
     background-color: #3B8686;
     padding: 15px 25px 15px 25px;
 }
+/*=============================
+     BANNER SECTION.IMAGE
+==============================*/
+section.image {
+    background: linear-gradient(rgba(59, 134, 134, 0.7), rgba(121, 189, 154, 0.2)), url(../images/back-numeros.png) no-repeat center;
+    background-size: cover;
+}
+section.image ul {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+section.image ul li {
+    text-align: center;
+    margin: 5vw 8vw 5vw 5vw;
+    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+/*=============================
+ BANNER SECTION.POSSIBILIDADES
+==============================*/
+section.possibilidades {
+    display: flex;
+    margin: 5vw 5vw 5vw 5vw;
+    padding: 20px;
+}
+section.possibilidades div h2 {
+    font-size: 1.7rem;
+    color: #0B486B;
+}
+section.possibilidades div button {
+    border: none;
+    background-color: #0B486B;
+    padding: 1vw 2vw 1vw 2vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+section.possibilidades div p {
+   color: #747474;
+   margin: 1.5vw 8vw 0 0;
+}
+/*=============================
+            FOOTER
+==============================*/
+footer {
+    background-color: #3B8686;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    font: 1.2rem;
+    padding: 2vw 2vw 2vw 2vw;
+    align-items: center;
+}
+footer div.redes ul {
+    display: flex;
+}
+footer div.redes ul li span {
+    font-size: 2.5rem;
+    padding: 0 0.5vw 2vw 0;
+}
+footer div.contato ul li {
+    padding: 1vw 0 0 0;
+}
+footer div.contato h3 {
+    font-weight: bold;
+}
+footer div.contato ul li span {
+    padding: 0 0.5vw 0 0;
+}
+footer div.indice ul li {
+    margin: 1vw 0 1.5vw 0;
+}
